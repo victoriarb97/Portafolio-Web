@@ -1,0 +1,130 @@
+a{
+	outline:0 !important;
+	color: var(--color-hover-menu);
+}
+.navbar-light {
+	background-color:transparent!important;
+	font-size:14px;
+	text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link{
+	color:#fff;	
+	font-weight: 700;
+	padding: 10px 17px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color:var(--color-hover-menu);
+}
+.navbar-light .navbar-nav .active.nav-link{
+	background-color:transparent;
+	color:var(--color-hover-menu);
+}
+.navbar-light .navbar-nav .active.nav-link:hover{
+	background-color:transparent;
+	color:var(--color-hover-menu);
+}
+
+
+
+.navbar-light .navbar-nav .show > .nav-link{
+	color: #fff;	
+}
+.navbar-light .navbar-nav .show > .nav-link:focus,
+.navbar-light .navbar-nav .show > .nav-link:hover{
+    color: #fff;
+    background-color: transparent;
+}
+
+.dropdown-menu{
+	background-color:#212121;
+	border:0;
+}
+.dropdown-menu .dropdown-item{
+	font-weight:300!important;	
+}
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item{
+	color:#fff;
+}
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-itema:focus {
+  color: #ff5518;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-light .navbar-toggler{
+	background-color: transparent;
+	border:1px solid #000;
+}
+.navbar-light .navbar-toggler:hover,
+.navbar-light .navbar-toggler:focus
+{
+    background-color: transparent;
+	cursor:pointer;
+}
+.navbar-light .navbar-toggler-icon {
+    background-color: transparent;
+}
+
+.navbar-light .navbar-toggle:hover .icon-bar {
+    background-color: #8B2588;
+	cursor:pointer;
+}
+.navbar-light .navbar-brand {
+	text-transform: none;
+	color: #fff;
+	font-weight: 700;
+	height: auto;
+	font-size: 20px;
+}
+.navbar-light .navbar-brand:hover {
+ 	color:#FE8F01;
+}
+.navbar-light .navbar-brand img{
+	width: 150px;
+}
+.navbar-light .navbar-brand i {
+  background-color: #FE8F01;
+  color: #fff;
+  padding: 5px;
+}
+
+.navbar-toggler i{
+	color: #00d9d9;
+	font-size: 20px;
+}
+
+
+
+.carousel-caption{
+	display: grid !important;
+	align-content: center;
+	height: 100%;
+}
+.carousel-item{
+	/*height: 100vh; opcional: en caso de no utilizar una imagen de fondo por slide*/
+}
+
+
+
+/*Altura definida para el Carousel manteniendo el aspecto de la imagen*/
+.carousel .carousel-item {
+  	height: 500px;
+}
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+
+
+
+
+
+
+
+
+

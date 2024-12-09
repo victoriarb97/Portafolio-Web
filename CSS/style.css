@@ -1,0 +1,123 @@
+:root {
+    --color-general: #7893d4; 
+    --color-titulos: #ffffff; 
+    --color-acerca: #000000;
+    --color-quote: #fffcf7; 
+    --color-boton: #ffffff; 
+    --color-hover-boton: #e0e7ff; 
+    --font-principal: 'Roboto', sans-serif;
+    --font-titulos: 'Neue Einstellung Bold', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-principal);
+    background-color: var(--color-general);
+}
+
+
+.header {
+    background-color: var(--color-general);
+    color: var(--color-titulos);
+    padding: 10px 0;
+    position: relative;
+    z-index: 10; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+
+#hero {
+    position: relative;
+    background-color: var(--color-general);
+    height: 100vh;
+    display: flex;
+	grid-template-columns: 1fr 1fr; 
+    align-items: center; 
+    justify-items: center; 
+    height: calc(100vh - 60px); 
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.hero .text-content {
+    text-align: left;
+    max-width: 500px;
+    padding: 20px;
+    z-index: 2;
+}
+
+.hero .title {
+    font-family: var(--font-titulos);
+    font-size: 4rem;
+    color: var(--color-titulos);
+    margin-bottom: 10px;
+}
+
+.hero .subtitle {
+    font-size: 1.5rem;
+    color: var(--color-titulos);
+    margin-bottom: 20px;
+}
+
+.hero .btn-primary {
+    background-color: var(--color-boton);
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn-primary:hover {
+    background-color: var(--color-hover-boton);
+}
+.quote-section blockquote p {
+    color: #ffffff; 
+}
+
+.navbar {
+    background-color: #ffffff; 
+    color: #000000; 
+}
+
+.navbar a {
+    color: #000000; 
+    text-decoration: none; 
+}
+
+.navbar a:hover {
+    color: #555555; 
+}
+
+
+.navbar-toggler {
+    border-color: #000000; 
+}
+
+.navbar-toggler-icon {
+    background-color: #000000; 
+}
+#servicios {
+    background-color: #f894b7;
+    color: #ffffff; 
+}
+
+#servicios h2 {
+    color: #ffffff; 
+}
+
+
+#servicios ul li {
+    color: #ffffff; 
+}
